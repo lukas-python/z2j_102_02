@@ -1,0 +1,41 @@
+body {
+    background-color: #8bc34a;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-grow: 1;
+}
+
+h2 {
+    font-weight: lighter;
+    text-align: center;
+    margin: 0.4rem 0 0.4rem 0;
+}
+
+/* Frames */
+
+.first-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    margin: rem;
+}
+
+.cat-contenteditable,
+.cat {
+    background-color: #b97a5c;
+    border: 0.7rem solid;
+    border-color: #a52a2a;
+    flex-direction: column-reverse;
+    align-self: flex-end;
+    margin-right: 1.5rem;
+}
+
+.cat-description {
+    flex-wrap: wrap;
+}
+
+/* Img */
+.cat-img {
+    text-align: center;
+    margin: 0.5rem;
+}
