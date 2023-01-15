@@ -32,6 +32,7 @@ h2 {
 
 .cat-description {
     flex-wrap: wrap;
+    max-width: 40rem;
 }
 
 /* Img */
